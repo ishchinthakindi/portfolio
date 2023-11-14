@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Encode+Sans&family=Fuggles&family=Lato:wght@100&display=swap');
+body{
+    margin:0px;
+    background-color: black;
+    color:white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:black;
+}
+.navbar-left{
+    padding: 20px;
+}
+.logo{
+    height:50px;
+}
+.navbar-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.a-element{
+    padding: 20px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+    margin: 10px;
+}
+.home{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+    border: 2px solid black;
+    background-color: antiquewhites;
+}
+.home-left{
+    width:70vw;
+    text-align: center;
+    padding-left: 80px;
+}
+.home-right{
+    width:30vw;
+    padding-left: 150px;
+}
+.home-h1{
+    font-family: 'Fuggles', cursive;
+    font-size: 100px;
+}
+.home-p{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+.service{
+    padding: 50px;
+    text-align:center;
+}
+.serv-head{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: rgb(90, 154, 90);
+    letter-spacing: 3px;
+    font-style: normal;
+    text-align: center;
+}
+.services-subcontent{
+    display: flex;
+    flex-direction: row;
+   
+}
+.services-card{
+    border: 2px solid rgb(90, 154, 90) ;
+    margin:20px;
+    padding: 20px;
+    width:500px;
+}
+.sc-h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+.sc-p{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+.sc2-h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+.sc2-p{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+.sc3-h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+.sc3-p{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+.contact{
+    text-align: center;
+}
+.contact-info{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+.social-icon-img{
+    height:50px;
+    padding:30px;
+}
+
